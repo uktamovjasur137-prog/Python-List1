@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+sonlar = [10, 20, 30, 40, 50]
 
-x = numbers[2:6]
+index = int(input("Index kiriting: "))
+yangi_qiymat = int(input("Yangi qiymat kiriting: "))
 
-print(x)
+sonlar[index] = yangi_qiymat
+
+print(sonlar)
